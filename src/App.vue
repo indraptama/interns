@@ -1,5 +1,5 @@
 <template lang="pug">
-  h1 This Is Vue
+  h1(class="xl:text-3xl") This Is Vue
 </template>
 
 <script>

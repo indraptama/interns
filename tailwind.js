@@ -170,7 +170,7 @@ module.exports = {
     'sm': '576px',
     'md': '768px',
     'lg': '992px',
-    'xl': '1200px',
+    'xl': '1440px',
   },
 
 
@@ -324,7 +324,7 @@ module.exports = {
   tracking: {
     'tight': '-0.05em',
     'normal': '0',
-    'wide': '0.05em',
+    'wide': '0.1em',
   },
 
 

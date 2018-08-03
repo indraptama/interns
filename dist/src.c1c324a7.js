@@ -10105,7 +10105,7 @@ exports.default = {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("This Is Vue")])
+  return _c("h1", { staticClass: "xl:text-3xl" }, [_vm._v("This Is Vue")])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -10192,7 +10192,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55193' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63325' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
